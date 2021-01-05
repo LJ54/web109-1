@@ -1,0 +1,101 @@
+/*$('body').scrollspy({ target: '#navbar-example' })*/
+
+
+/*
+#list-example {
+    top: 0px;
+    padding: 0 0 0 96vw;
+    width: 3vw;
+    height: 100vh;
+    position: fixed;
+}
+*/
+
+h1.opchange {
+  font-family: Crimson Text;
+}
+
+#list-example {
+    font-size: 14px;
+    height: 0vh;
+    width: 3vw;
+    /*    padding: 0 0 0 96vw;*/
+    font-family: Roboto, "Noto Sans TC", 微軟正黑體, 繁黑體, "Microsoft JhengHei", "Microsoft YaHei", "Heiti TC", "LiHei Pro", PMingLiU;
+    z-index: 100000;
+}
+
+a.list-group-item.list-group-item-action.active {
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: #ECE7E7;
+    background-color: #3D50DC;
+    text-align: center;
+}
+
+a.list-group-item.list-group-item-action {
+    color: #272424;
+    background-color: #FBDE75;
+}
+
+.stage {
+    border-bottom: 3px;
+    display: flex;
+    height: 330px;
+    width: 100%;
+}
+
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /*    background-color: pink;*/
+    /*        height: 200px;*/
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    /*        width: 200px;*/
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+    border-bottom: 5px solid #f00;
+}
+
+.bounce-3 {
+    animation-name: bounce-3;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce-3 {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.spot {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, #FFEA9B 0);
+    background-position: 0;
+    background-size: 200%;
+    transition: all .8s;
+    font-weight: 400;
+    color:black;
+}
+
+.spotted {
+    background-position: -100%;
+}
