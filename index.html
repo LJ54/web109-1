@@ -256,7 +256,7 @@
                 var wh = $(window).height();
                 console.log("see this", wh, ",", scrolled);
                 $(this).css({
-                    "opacity": (scrolled-400) /100
+                    "opacity": (wh - scrolled) /wh
                 });
             });
         });
