@@ -1,45 +1,9 @@
-/*$('body').scrollspy({ target: '#navbar-example' })*/
 
-
-/*
-#list-example {
-    top: 0px;
-    padding: 0 0 0 96vw;
-    width: 3vw;
-    height: 100vh;
-    position: fixed;
-}
-*/
 
 h1.opchange {
     font-family: Crimson Text;
 }
-/*
 
-#list-example {
-    font-size: 14px;
-    height: 0vh;
-    width: 3vw;
-        padding: 0 0 0 96vw;
-    font-family: Roboto, "Noto Sans TC", 微軟正黑體, 繁黑體, "Microsoft JhengHei", "Microsoft YaHei", "Heiti TC", "LiHei Pro", PMingLiU;
-    z-index: 100000;
-}
-
-a.list-group-item.list-group-item-action.active {
-    font-family: Lora;
-    font-size: 14px;
-    font-weight: 300;
-    font-style: normal;
-    color: #ECE7E7;
-    background-color: #3D50DC;
-    text-align: center;
-}
-
-a.list-group-item.list-group-item-action {
-    color: #272424;
-    background-color: #FBDE75;
-}
-*/
 
 #list-example {
     top: 0px;
@@ -55,7 +19,7 @@ a.list-group-item.list-group-item-action {
 
 #list-example a.active {
     background-color: rgba(255, 255, 255, 0.5);
-    color: dodgerblue;
+    color: white;
 }
 
 a.list-group-item.list-group-item-action.active {
