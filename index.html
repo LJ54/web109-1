@@ -36,7 +36,7 @@
         <div id="start" style="background-color: black; height:500vh; width:300vh">
             <img src="assets/title.png" class="opchange" data-pos="1" style="position:fixed; z-index:103; height: 100%; width:100%; opacity:1;">
             <div class="stage" style="position:absolute; z-index:103; height: 100; width:100%; margin-top: 30%">
-<!--                <div class="box bounce-3" class="opchange" data-pos="1"></div>-->
+                <div class="box bounce-3" style="opacity:1;"></div>
             </div>
             <h1 class="opchange" data-pos="1" style="position:fixed; z-index:103; height: 100; width:100%; opacity:1; margin-top: 8%; margin-left: 40%; color: white;">
                 能源與我們的距離？</h1>
@@ -248,6 +248,21 @@
             });
         });
     </script>
+    
+    <script>
+        $(window).scroll(function() {
+            var scrolled = $(document).scrollTop();
+            $(".box").each(function() {
+                var wh = $(window).height();
+                console.log("see this", wh, ",", scrolled);
+                $(this).css({
+                    "opacity": (scrolled-400) /100
+                });
+            });
+        });
+    </script>
+    
+    
     <script>
         $(window).scroll(function() {
             var current_pos = $(document).scrollTop();

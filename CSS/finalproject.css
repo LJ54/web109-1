@@ -48,17 +48,15 @@ a.list-group-item.list-group-item-action {
     align-self: flex-end;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    /*    background-color: pink;*/
-    /*        height: 200px;*/
     margin: 0 auto 0 auto;
     transform-origin: bottom;
-    /*        width: 200px;*/
     width: 0;
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #f00;
     border-bottom: 0px solid #f00;
+    opacity:.5;
 }
 
 .bounce-3 {
