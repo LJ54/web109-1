@@ -4,7 +4,9 @@ h1.opchange {
     font-family: Droid Sans;
 }
 
-
+.p{
+    font-size: 20px;
+}
 #list-example {
     top: 0px;
     right: 0px;
