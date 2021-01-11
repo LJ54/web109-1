@@ -1,10 +1,4 @@
 
-
-h1.opchange {
-    font-family: Droid Sans;
-}
-
-
 #list-example {
     top: 0px;
     right: 0px;
@@ -16,20 +10,6 @@ h1.opchange {
     overflow-wrap: break-word;
     border: none;
 }
-
-/*
-li.dropdown {
-  background-color: rgba(255, 255, 255, 0.1);
-    overflow-wrap: break-word;
-    border: none;
-}
-
-li.dropdown-toggle {
-  background-color: rgba(255, 255, 255, 0.1);
-    overflow-wrap: break-word;
-    border: none;
-}
-*/
 
 h1.opchange {
   font-family: Droid Sans;
