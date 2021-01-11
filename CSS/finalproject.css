@@ -17,6 +17,20 @@ h1.opchange {
     border: none;
 }
 
+/*
+li.dropdown {
+  background-color: rgba(255, 255, 255, 0.1);
+    overflow-wrap: break-word;
+    border: none;
+}
+
+li.dropdown-toggle {
+  background-color: rgba(255, 255, 255, 0.1);
+    overflow-wrap: break-word;
+    border: none;
+}
+*/
+
 #list-example a.active {
     background-color: rgba(255, 255, 255, 0.5);
     color: white;
@@ -83,7 +97,7 @@ a.list-group-item.list-group-item-action {
 
 
 .spot {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, #00CED1 0);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, #54749f 0);
     background-position: 0;
     background-size: 200%;
     transition: all .8s;
